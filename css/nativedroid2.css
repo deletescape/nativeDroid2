@@ -1477,6 +1477,131 @@ html >body .ui-rangeslider .ui-rangeslider-sliders .ui-slider-track:first-child 
 	display: block !important;
 }
 
+.ui-mobile .ui-icon-group,
+.ui-mobile .ui-icon-group:after {
+	background-image: url("https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_people_black_18px.svg");
+}
+/* Fallback */
+.ui-mobile .ui-nosvg .ui-icon-group,
+.ui-mobile .ui-nosvg .ui-icon-group:after {
+	background-image: url("https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_people_black_18px.svg");
+}
+.ui-mobile .ui-btn-down-b .ui-icon-group,
+.ui-mobile .ui-btn-down-b .ui-icon-group:after {
+	background-image: url("https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_people_black_18px.svg");
+}
+/* Fallback */
+.ui-mobile .ui-nosvg .ui-btn-down-b .ui-icon-group,
+.ui-mobile .ui-nosvg .ui-btn-down-b .ui-icon-group:after {
+	background-image: url("https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_people_black_18px.svg");
+}
+
+.ui-mobile .ui-icon-prepend,
+.ui-mobile .ui-text-prepend  {
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+	margin: 6px 10px 0 0;
+}
+
+/* Custom Dividers */
+.ui-mobile .ui-li-divider {
+	padding: 7px 1em !important;
+	background-color: transparent !important;
+	color: rgba(0,0,0, 0.54) !important;
+	font-weight: 400 !important;
+	font-size: 1em !important;
+	line-height: 1.4em !important;
+}
+
+
+/* Warning messages - unfortunatly named with 'alert' */
+.alert {
+  display: block;
+  padding: 1px 15px;
+  margin: 0.5em 1em 2em 1em;
+  margin
+  font-size: 13px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 2px solid transparent;
+}
+.alert-success {
+  background: #D6E9C6;
+  border-color: #ABCE9B;
+}
+.alert-success strong {
+  color: #006837;
+}
+.alert-info {
+  background: #D9EDF7;
+  border-color: #A9CDDC;
+}
+.alert-info strong {
+  color: #116E9C;
+}
+.alert-warning {
+  background: #FCDBA1;
+  border-color: #E4BE81;
+}
+.alert-warning strong {
+  color: #C36000;
+}
+.alert-error {
+  background: #F2DEDE;
+  border-color: #E0B3B3;
+}
+.alert-error strong {
+  color: #A80000;
+}
+
+/** Teilnehmer Page */
+#activity-subtitle {
+  text-align: center;
+  margin-top: -5px;
+  margin-bottom: 6px;
+  font-size: smaller;
+  font-weight: normal;
+}
+#endOfList {
+	height: 0px;
+}
+
+.members-info {
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.ui-mobile .ui-controlgroup-vertical .ui-corner-all {
+  border-radius: 0;
+}
+
+.ui-mobile .ui-controlgroup-vertical li {
+  list-style-type: none;
+}
+
+.ui-mobile .ui-controlgroup-vertical .ui-checkbox {
+  margin: 0;
+}
+
+/* Disabled Teilnehmer */
+.ui-mobile .ui-disabled,
+.ui-mobile .ui-disabled a {
+	cursor: default !important;
+	pointer-events: none;
+	text-decoration: line-through;
+}
+.ui-mobile .ui-disabled .ui-icon {
+	visibility: hidden;
+}
+.ui-mobile .ui-disabled .ui-btn {
+	cursor: default !important;
+	pointer-events: none;
+}
+
+
 /*
 * Charts
 */
