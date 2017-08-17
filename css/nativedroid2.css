@@ -1560,7 +1560,6 @@ html >body .ui-rangeslider .ui-rangeslider-sliders .ui-slider-track:first-child 
 
 /** Teilnehmer Page */
 #activity-subtitle {
-  text-align: center;
   margin-top: -5px;
   margin-bottom: 6px;
   font-size: smaller;
