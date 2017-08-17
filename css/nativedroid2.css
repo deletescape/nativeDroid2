@@ -1515,7 +1515,13 @@ html >body .ui-rangeslider .ui-rangeslider-sliders .ui-slider-track:first-child 
 	line-height: 1.4em !important;
 }
 
-*{ text-decoration: none;}
+* { 
+	text-decoration: none;
+}
+
+.members-list {
+	padding: 1em;
+}
 
 /* Warning messages - unfortunatly named with 'alert' */
 .alert {
