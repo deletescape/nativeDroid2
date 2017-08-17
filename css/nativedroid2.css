@@ -1520,7 +1520,7 @@ html >body .ui-rangeslider .ui-rangeslider-sliders .ui-slider-track:first-child 
 }
 
 .members-list {
-	padding: 1em;
+	padding: 1em !important;
 }
 
 /* Warning messages - unfortunatly named with 'alert' */
