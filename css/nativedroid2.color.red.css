@@ -55,8 +55,8 @@ li.ui-tabs-active > .ui-link.ui-btn.ui-tabs-anchor,
 }
 
 html .ui-page-theme-a .ui-btn.ui-checkbox-on.ui-checkbox-on:after {
-	background-color: #F44336;
-	border-color: #F44336;
+	background-color: #F44336 !important;
+	border-color: #F44336 !important;
 }
 
 
